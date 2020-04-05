@@ -1,0 +1,9 @@
+*.pyc
+*.so
+*.pyd
+pypihelp.txt
+build/*
+dist/*
+arulesviz.egg-info/*
+examples/data/*
+examples/.ipynb_checkpoints

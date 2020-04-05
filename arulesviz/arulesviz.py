@@ -1,25 +1,24 @@
-from ipywidgets import (
-    HBox,
-    VBox,
-    IntSlider,
-    SelectMultiple,
-    FloatLogSlider,
-    FloatSlider,
-    AppLayout,
-    TwoByTwoLayout,
-    Label,
-    Layout,
-    Button,
-    Textarea,
-)
+import datetime
 from functools import reduce
+from pathlib import Path
+
 from bqplot import *
 from bqplot.marks import Graph
 from efficient_apriori import apriori
-from pathlib import Path
-
-# import time
-import datetime
+from ipywidgets import (
+    AppLayout,
+    Button,
+    FloatLogSlider,
+    FloatSlider,
+    HBox,
+    IntSlider,
+    Label,
+    Layout,
+    SelectMultiple,
+    Textarea,
+    TwoByTwoLayout,
+    VBox,
+)
 
 
 class Arulesviz:
